@@ -11,10 +11,10 @@ The workflow layers **numerical diffusion models**, **probabilistic forecasts**,
 ---
 
 ## Current Focus
-**Stage 0 - Crisis-Mode Monte Carlo (fallback on real data)**
+**Stage 1 - Crisis-Mode Monte Carlo (fallback on real data)**
 
 - Rigorous, short-horizon Monte Carlo forecaster for stress periods (e.g.,volatility spikes, breadth crashes).
-- Produces next-day **mean/variance**, **P[win]**, **95% CI**, **first-passage probabilities** (e.g., "up before down"), and **ES\(_{97.5}\)**.
+- Produces next-day **mean/variance**, **P[win]**, **95% CI**, **first-passage probabilities** (e.g., "up before down"), and **$ES\_{97.5}\$**.
 - Outputs a **conservative action** (with crisis multiplier) and a machine-readable prediction artifact.
 
 Outputs include:
